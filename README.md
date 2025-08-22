@@ -1,19 +1,27 @@
-SMART SUPPLY CHAIN MANAGEMENT SYSTEM
-________________________________________
+Smart Supply Chain & Inventory Management System
+Overview
+This project is a comprehensive Java-based simulation of a supply chain and inventory management system. It is designed using core Object-Oriented principles to model the interactions between different actors in a supply chain, such as suppliers, warehouse operators, and retailers. The system aims to solve common inventory challenges like inefficient stock tracking and demand forecasting by implementing several smart features.
 
-This project models a basic smart supply chain management system with object-oriented concepts. It includes different supply chain actors such as Suppliers, Retailers, Warehouse Operators, and System Administrators, all interacting through products, sales transactions, and purchase orders.
-The application uses inheritance, polymorphism, abstraction, interfaces, exception handling, and file I/O techniques to simulate realistic supply chain operations.
+This application runs on the command line and demonstrates a robust backend architecture for managing products, orders, and system-wide reporting.
 
-Main Features:
+Key Features
+Object-Oriented Architecture: The system is built on a strong foundation of OOP principles, including abstraction, inheritance, and polymorphism to model real-world supply chain entities.
 
-●	Suppliers manage stock and add products.
+Role-Based Simulation: Distinct classes for ProductSupplier, WarehouseOperator, ProductRetailer, and SystemAdministrator ensure a clear separation of concerns and realistic simulation of roles.
 
-●	Retailers can place orders.
+AI-Powered Demand Forecasting: A smart module analyzes historical sales data using a Simple Moving Average (SMA) algorithm to predict future product demand, helping to prevent stockouts and optimize inventory levels.
 
-●	Warehouse operators manage inventory.
+Barcode Scanning Integration: Leverages the ZXing (Zebra Crossing) library to simulate barcode scanning for efficient and error-free stock updates. The system can decode a product ID from a barcode image to update inventory counts.
 
-●	System Administrators monitor the system.
+Multithreaded Reporting: To ensure the application remains responsive, system-wide inventory reports are generated on a separate background thread using Java's ExecutorService, preventing the main application from freezing during I/O-heavy operations.
 
-●	File I/O for saving inventory reports.
+File-Based Reporting & Logging: The SystemAdministrator can generate detailed inventory_report.txt files and maintain an admin_log.txt for system monitoring and traceability.
 
-●	Exception handling for invalid operations.
+Technologies Used
+Language: Java
+
+Core Concepts: Object-Oriented Programming (OOP), Data Structures, Multithreading, File I/O
+
+External Libraries:
+
+ZXing (Zebra Crossing): For barcode image decoding. (core-3.5.1.jar, javase-3.5.1.jar)
