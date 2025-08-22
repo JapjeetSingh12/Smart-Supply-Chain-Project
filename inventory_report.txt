@@ -1,0 +1,19 @@
+--- System Inventory Report ---
+
+Role: Retailer
+User: Retailer1
+Laptop: 10
+Phone: 10
+
+Role: ProductSupplier
+User: Supplier1
+Laptop: 45
+Phone: 50
+Tablet: 50
+
+Role: WarehouseOperator
+User: Warehouse1
+Laptop: 5
+Phone: 20
+Tablet: 15
+
