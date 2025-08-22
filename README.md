@@ -1,18 +1,17 @@
-## Getting Started
+SMART SUPPLY CHAIN MANAGEMENT SYSTEM
+________________________________________
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project models a basic smart supply chain management system with object-oriented concepts. It includes different supply chain actors such as Suppliers, Retailers, Warehouse Operators, and System Administrators, all interacting through products, sales transactions, and purchase orders.
+The application uses inheritance, polymorphism, abstraction, interfaces, exception handling, and file I/O techniques to simulate realistic supply chain operations.
+Main Features:
+●	Suppliers manage stock and add products.
 
-## Folder Structure
+●	Retailers can place orders.
 
-The workspace contains two folders by default, where:
+●	Warehouse operators manage inventory.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+●	System Administrators monitor the system.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+●	File I/O for saving inventory reports.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+●	Exception handling for invalid operations.
